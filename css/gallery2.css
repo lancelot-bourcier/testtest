@@ -1,0 +1,46 @@
+.mosaique {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    overflow: auto;
+    
+    margin-left: 200px;
+    margin-top: 0px;
+    width: 80%;
+    
+}
+
+.imagegallery1 {
+    
+    
+    /*
+    width: auto; 
+    text-align:left; 
+    */
+    padding:20px;
+    
+} 
+
+.imagegalleryalt  { 
+    /*max-width:100%;*/
+    width: 550px;
+    height:auto; 
+}
+
+@media screen and (max-width: 950px) {
+    
+    img {
+        transition: all 0.5s ease;
+        max-width:100%;
+    }
+    
+    .mosaique {
+        transition: all 0.5s ease;
+        margin-top: 18.75rem;
+        margin-left: 0px;
+        justify-content: flex-start;
+    }
+    
+    
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: #111;
+    font-family: 'Cutive Mono', monospace;
+    color: #ffffff;
+}
+
+#idcenter{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

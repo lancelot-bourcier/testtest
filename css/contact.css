@@ -1,0 +1,22 @@
+#idcenter{
+}
+
+.lien-mail {
+  text-decoration : underline;
+  color: white;
+}
+
+.lien-mail:hover {
+  text-decoration : underline;
+  color: white;
+}
+
+.lien-mail:active {
+  text-decoration : underline;
+  color: white;
+}
+
+.lien-mail:visited {
+  text-decoration : underline;
+  color: white;
+}
